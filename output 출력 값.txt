@@ -1,0 +1,86 @@
+Enter number of total process.(max : 50)
+Enter class num, priority, cpu burst
+-----shortest job first scheduling-----
+---------------------------------------
+number of process :  5
+[process 11] burst time :   2
+[process 13] burst time :   7
+[process 22] burst time :   9
+[process  5] burst time :  23
+[process  2] burst time :  43
+
+
+-----round-robin scheduling 8-----
+----------------------------------
+number of process :  5
+[process  1] burst time - 기존 :  17, 실행 :   8, 나머지 :   9
+[process  6] burst time - 기존 :  87, 실행 :   8, 나머지 :  79
+[process  8] burst time - 기존 :  56, 실행 :   8, 나머지 :  48
+[process  9] burst time - 기존 :   8, 실행 :   8, 나머지 :   0
+[process 16] burst time - 기존 :  14, 실행 :   8, 나머지 :   6
+[process  1] burst time - 기존 :   9, 실행 :   8, 나머지 :   1
+[process  6] burst time - 기존 :  79, 실행 :   8, 나머지 :  71
+[process  8] burst time - 기존 :  48, 실행 :   8, 나머지 :  40
+[process 16] burst time - 기존 :   6, 실행 :   6, 나머지 :   0
+[process  1] burst time - 기존 :   1, 실행 :   1, 나머지 :   0
+[process  6] burst time - 기존 :  71, 실행 :   8, 나머지 :  63
+[process  8] burst time - 기존 :  40, 실행 :   8, 나머지 :  32
+[process  6] burst time - 기존 :  63, 실행 :   8, 나머지 :  55
+[process  8] burst time - 기존 :  32, 실행 :   8, 나머지 :  24
+[process  6] burst time - 기존 :  55, 실행 :   8, 나머지 :  47
+[process  8] burst time - 기존 :  24, 실행 :   8, 나머지 :  16
+[process  6] burst time - 기존 :  47, 실행 :   8, 나머지 :  39
+[process  8] burst time - 기존 :  16, 실행 :   8, 나머지 :   8
+[process  6] burst time - 기존 :  39, 실행 :   8, 나머지 :  31
+[process  8] burst time - 기존 :   8, 실행 :   8, 나머지 :   0
+[process  6] burst time - 기존 :  31, 실행 :   8, 나머지 :  23
+[process  6] burst time - 기존 :  23, 실행 :   8, 나머지 :  15
+[process  6] burst time - 기존 :  15, 실행 :   8, 나머지 :   7
+[process  6] burst time - 기존 :   7, 실행 :   7, 나머지 :   0
+
+
+-----round-robin scheduling 20-----
+-----------------------------------
+number of process :  4
+[process 10] burst time - 기존 :  53, 실행 :  20, 나머지 :  33
+[process 14] burst time - 기존 :  17, 실행 :  17, 나머지 :   0
+[process 20] burst time - 기존 :  68, 실행 :  20, 나머지 :  48
+[process 21] burst time - 기존 :  24, 실행 :  20, 나머지 :   4
+[process 10] burst time - 기존 :  33, 실행 :  20, 나머지 :  13
+[process 20] burst time - 기존 :  48, 실행 :  20, 나머지 :  28
+[process 21] burst time - 기존 :   4, 실행 :   4, 나머지 :   0
+[process 10] burst time - 기존 :  13, 실행 :  13, 나머지 :   0
+[process 20] burst time - 기존 :  28, 실행 :  20, 나머지 :   8
+[process 20] burst time - 기존 :   8, 실행 :   8, 나머지 :   0
+
+
+-----priority scheduling-----
+-----------------------------
+number of process :  3
+[process 19] priority :  1, burst time :  19
+[process  7] priority :  5, burst time :   3
+[process 15] priority :  7, burst time :   9
+
+
+-----my own scheduling-----
+---------------------------
+number of process :  5
+[process 17] priority :  1 | burst time - 기존 :  86, 실행 :  15, 나머지 :  71
+[process  3] priority :  2 | burst time - 기존 :  33, 실행 :  15, 나머지 :  18
+[process 17] priority :  2 | burst time - 기존 :  71, 실행 :  15, 나머지 :  56
+[process  3] priority :  3 | burst time - 기존 :  18, 실행 :  15, 나머지 :   3
+[process 17] priority :  3 | burst time - 기존 :  56, 실행 :  15, 나머지 :  41
+[process 18] priority :  3 | burst time - 기존 :  71, 실행 :  15, 나머지 :  56
+[process  3] priority :  4 | burst time - 기존 :   3, 실행 :   3, 나머지 :   0
+[process 12] priority :  4 | burst time - 기존 :  36, 실행 :  15, 나머지 :  21
+[process 17] priority :  4 | burst time - 기존 :  41, 실행 :  15, 나머지 :  26
+[process 18] priority :  4 | burst time - 기존 :  56, 실행 :  15, 나머지 :  41
+[process  4] priority :  5 | burst time - 기존 :  12, 실행 :  12, 나머지 :   0
+[process 12] priority :  5 | burst time - 기존 :  21, 실행 :  15, 나머지 :   6
+[process 17] priority :  5 | burst time - 기존 :  26, 실행 :  15, 나머지 :  11
+[process 18] priority :  5 | burst time - 기존 :  41, 실행 :  15, 나머지 :  26
+[process 12] priority :  6 | burst time - 기존 :   6, 실행 :   6, 나머지 :   0
+[process 17] priority :  6 | burst time - 기존 :  11, 실행 :  11, 나머지 :   0
+[process 18] priority :  6 | burst time - 기존 :  26, 실행 :  15, 나머지 :  11
+[process 18] priority :  7 | burst time - 기존 :  11, 실행 :  11, 나머지 :   0
+
